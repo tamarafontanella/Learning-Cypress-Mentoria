@@ -2,10 +2,6 @@ describe("User List", () => {
     beforeEach(() => cy.visit("/users"));
     
     it("View user's profile", () => {
-        /**
-         * Neste teste o que pode ser utilizado para comparar os dados que são apresentados?
-         * Veja a solução abaixo:
-        */
         cy.get('tr td')
             .first()
             .invoke('text')

@@ -26,11 +26,6 @@ describe("Find elements Buttons", () => {
     });
 
     it("Button Disable", () => {
-        /**
-         * Existe este tipo de teste?
-         * Neste caso específico você pode testar que o botão
-         * possui a classe disabled.
-         */
         cy.get(".btn-large.disabled").should("exist");
     });
 
